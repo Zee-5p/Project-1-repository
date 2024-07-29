@@ -11,6 +11,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: 'lato', sans-serif;
 
 color: black;
 }
@@ -19,8 +20,11 @@ header {
 background-color: black;
 color: aliceblue;
 text-align: center;
-}
 
+}
+h1 { 
+   font-family: 'spectral',sans-serif; 
+}
 main {
     background-color: yellow;
 flex: 1 0 auto;
@@ -33,7 +37,7 @@ footer {
     text-align: center;
 }
 
-.spectral-extrabold {
+#logo {
     font-family: "Spectral", serif;
     font-weight: 800;
     font-style: normal;

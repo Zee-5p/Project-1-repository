@@ -13,8 +13,6 @@
         <a href="index.html">
             <h1>TMV Cars</h1>
         </a>
-        <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label">Main Menu v</label>
             <nav>
             <ul id="menu">
                 <li><a href="">Home</a></li>
@@ -26,7 +24,58 @@
             </nav>
         
     </header>
-    <main>Top Picks</main>
-    <Footer>Contact us</Footer>
+    <main class="top-picks">
+        <div class="content">
+            <h2>Top Picks</h2>
+            <div class="images-container">
+                <div class="image-item">
+                    <img src="assets/images/Car1 .jpeg" alt="car 1">
+                    <h3>Suzuki Swift</h3>
+                    <p>Immaculate condition, 1 Owner from new</p>
+                </div>
+                <div class="image-item">
+                    <img src="assets/images/Car2.jpeg" alt="car 2">
+                    <h3>Citreon Ds3</h3>
+                    <p>Beautiful sunshine yellow, Low mileage</p>
+                </div>
+                <div class="image-item">
+                    <img src="assets/images/Car3.jpeg" alt="car 3">
+                    <h3>Skoda Octavia</h3>
+                    <p>Luxurious interior, Smooth drive</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <h2>Contact Us</h2>
+                <p>1 Nicholson Way, Burton-on-Trent, UK</p>
+                <p>Email: TMV@cars.com</p>
+                <p>Phone: (01283) 555-4444</p>
+            </div>
+            <div class="enquiries-form">
+                <details>
+                    <summary>Enquiries Form</summary>
+                    <form action="#" method="post">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        
+                        <label for="enquiry">Enquiry:</label>
+                        <textarea id="enquiry" name="enquiry" rows="4" required></textarea>
+                        
+                        <button type="submit">Submit</button>
+                    </form>
+                </details>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 TMV Cars. All rights reserved.</p>
+        </div>
+    </footer>
+
 </body>
 </html>

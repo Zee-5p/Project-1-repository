@@ -14,27 +14,27 @@ The TMV Cars website is fully responsive, ensuring an optimal viewing experience
 1. **Navigation Bar**
    - Featured on all pages, the responsive navigation bar includes links to the Home, Top Picks, Browse Vehicles, Make an Enquiry, and Contact Us sections. It provides a consistent and easy navigation experience across the site.
 
-   ![Navigation bar](image.png)
+   ![Navigation bar](assets/images/image.png)
 
 2. **Landing Page**
    - The landing page features a prominent header with the dealership's name and a navigation bar. This section sets the tone for the rest of the site with its clean design and easy access to different sections. It also shows the Top picks that TMV cars offer showcasing the best cars for customers to see when they first acess the site, the remaing cars available are also partially visible.
 
-   ![landing page](image-1.png)
+   ![landing page](assets/images/image-1.png)
 
 3. **Top Picks Section**
    - This section showcases the dealership's highlighted vehicles, providing images and descriptions for each. It helps users quickly identify the most popular and recommended cars and allows the compnay to showcase their best cars first. 
 
-![Top Picks section](image-2.png)
+![Top Picks section](assets/images/image-2.png)
 
 4. **Browse Cars Section**
    - This section allows the customer to browse all the vehcile the dealership has available provdiing and summary of the key point regarding the car. this allows users to explore the range available and see what is suited to them. 
 
-   ![Browse Cars section](image-3.png)
+   ![Browse Cars section](assets/images/image-3.png)
 
 5. **Contact Information**
    - The footer includes detailed contact information, such as the dealership's address, email, and phone number. This section is crucial for users who want to reach out directly to TMV Cars or visit the dealership to see a vehicle.
 
-   ![Contact information section](image-4.png)
+   ![Contact information section](assets/images/image-4.png)
 
 6. **Enquiries Form**
    - Also located in the footer is an interactive form wich allows users to submit inquiries. It includes fields for name, email, and a message, making it easy for potential customers to get in touch. This section allows users to ask any questions they may have regaridng the vehile we have, services we provide or any other query they may have. The form also closes and expands to make better use of the space and provide a better experience.
@@ -47,7 +47,7 @@ The TMV Cars website is fully responsive, ensuring an optimal viewing experience
 8. **Thank You Page**
    - After submitting an inquiry, users are directed to a thank-you page, acknowledging their submission and assuring them of a prompt response. they can then navigate away from this using the nav bar.
 
-   ![Thank you page](image-7.png)
+   ![Thank you page](assets/images/image-7.png)
 
 ### Features Left to Implement
 
@@ -71,7 +71,7 @@ Extensive testing was conducted to ensure that all features work as intended. Th
 - **HTML**: some errors were detected when passing the HTML files through the W3C validator, upon examination these errors weren't relevant, the few that were have been amended.
 - **CSS**: No issues were found using the Jigsaw CSS validator.
 - **Acessibility**: I confirmed that the fonts, colours and code used are easy to read and acessible by testing it with Lighthouse.
-![Lighthouse report](image-9.png)
+![Lighthouse report](assets/images/image-9.png)
 
 
 ## Deployment

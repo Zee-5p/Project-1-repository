@@ -24,11 +24,38 @@ padding: 0 1rem;
 position: fixed;
 z-index: 50;
 width: 100%;
-box-shadow:0 3px 2px whitesmoke ;
+box-shadow:0 2px 2px whitesmoke ;
 
+}
+header a {
+    text-decoration: none;
+    color: aliceblue;
+    
 }
 h1 { 
    font-family: 'spectral',sans-serif; 
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   color: aliceblue;
+   display: flex;
+   justify-content: center;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   font-size: 500%;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 3px;
+    list-style-type: none;
+    text-decoration-line: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4%;
+   margin-bottom: 1em;
+    
 }
 main {
     background-color: yellow;

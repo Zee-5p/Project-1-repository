@@ -20,6 +20,11 @@ header {
 background-color: black;
 color: aliceblue;
 text-align: center;
+padding: 0 1rem;
+position: fixed;
+z-index: 50;
+width: 100%;
+box-shadow:0 3px 2px whitesmoke ;
 
 }
 h1 { 
